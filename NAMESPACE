@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+import(gtools)
+import(crayon)
+import(stringr)
+import(flexsurv)
+importFrom("stats", "as.formula", "coefficients", "model.matrix","nlminb", "pnorm")
+importFrom("utils", "combn", "tail")

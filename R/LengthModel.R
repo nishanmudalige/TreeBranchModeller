@@ -53,8 +53,15 @@ fit_length = function(base, var, data, trace = F){
 
 
 
-#' @export
+
 systematic_fit_length = function(base, vars, data, trace = F){
+  
+  bgcfblue = make_style("cornflowerblue", bg = TRUE)
+  bglightblue = make_style("lightblue", bg = TRUE)
+  bgpeach = make_style("peachpuff", bg = TRUE)
+  bglightgreen = make_style("lightgreen", bg = TRUE)
+  bglightpink = make_style("lightpink", bg = TRUE)
+  purple = make_style("purple2")
   
   previous_best_model = fit_length(base, 1, data, trace = F)
   previous_best_aic = previous_best_model$aic
@@ -201,11 +208,18 @@ systematic_fit_component_length = function(base, vars, data, trace = F){
   
 }
 
-#' @export
+
 systematic_fit_full_length = function(base, vars, data, 
                                       linear = T, quad_int = T,
                                       hierarchical = T, 
                                       trace = F){
+  
+  bgcfblue = make_style("cornflowerblue", bg = TRUE)
+  bglightblue = make_style("lightblue", bg = TRUE)
+  bgpeach = make_style("peachpuff", bg = TRUE)
+  bglightgreen = make_style("lightgreen", bg = TRUE)
+  bglightpink = make_style("lightpink", bg = TRUE)
+  purple = make_style("purple2")
   
   current_base = base
   current_model = NULL

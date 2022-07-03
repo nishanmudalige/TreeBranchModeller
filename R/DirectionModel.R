@@ -109,6 +109,7 @@ select_multiple <- function(data, must_include = NULL, u, v, trace = F){
   bgpeach = make_style("peachpuff", bg = TRUE)
   bglightgreen = make_style("lightgreen", bg = TRUE)
   bglightpink = make_style("lightpink", bg = TRUE)
+  purple = make_style("purple2")
   
   current_best_model = create_model(data, must_include, u, v, trace)
   
