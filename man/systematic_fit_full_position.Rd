@@ -1,11 +1,12 @@
-\name{systematic_fit_full_offspring}
-\alias{systematic_fit_full_offspring}
-\title{A function to systematically fit the best linear and quadratic terms in the model for the number of offspring}
-\description{A function that will systematically fit the best linear and quadratic terms in the model for the number of offspring. The function will first fit the best linear terms and if any linear terms are selected by the model, then the function will determine whether any of the linear terms may also be added into the model as quadratic terms and interaction terms based on AIC criteria.}
-\usage{systematic_fit_full_offspring(base, vars, data, 
+\name{systematic_fit_full_position}
+\alias{systematic_fit_full_position}
+\title{A function to systematically fit the best linear and quadratic terms in the model for the position of a branch}
+\description{A function that will systematically fit the best linear and quadratic terms in the model for the position. The function will first fit the best linear terms and if any linear terms are selected by the model, then the function will determine whether any of the linear terms may also be added into the model as quadratic terms and interaction terms based on AIC criteria.}
+\usage{systematic_fit_full_position(base, k, vars, data, 
 linear = T, quad_int = T, hierarchical = T, trace = F)}
 \arguments{
   \item{base}{The base model formula.}
+  \item{k}{Number of components in the mixture of of the beta regression model for position.}
   \item{vars}{A vector of candidate variables.}
   \item{data}{Data used for model selection.}
   \item{linear}{Logical argument. If set to TRUE, then determine the linear terms that should be included.}

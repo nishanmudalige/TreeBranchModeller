@@ -1,11 +1,12 @@
-\name{systematic_fit_length}
-\alias{systematic_fit_length}
-\title{A function to fit one additional variable into a base model for length from a vector of variables}
-\description{A function to fit one additional variable into a base model for length of a branch from a set vector of variables based on the AIC criteria.}
-\usage{
-systematic_fit_length(base, vars, data, trace = F)}
+\name{systematic_fit_position}
+\alias{systematic_fit_position}
+%- Also NEED an '\alias' for EACH other topic documented here.
+\title{A function to fit one additional variable into a base model for the position from a vector of variables}
+\description{A function to fit one additional variable into a base model for the position of a branch from a set vector of variables based on the AIC criteria.}
+\usage{systematic_fit_position(base, k, vars, data, trace = F)}
 \arguments{
   \item{base}{The base model formula.}
+  \item{k}{Number of components in the mixture of of the beta regression model for position.}
   \item{vars}{A vector of candidate variables.}
   \item{data}{Data used for model selection.}
   \item{trace}{Whether to show the steps of the model selection process.}

@@ -9,5 +9,5 @@ License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.0.0)
-Imports: gtools, crayon, stringr, flexsurv, utils, stats
+Imports: gtools, crayon, stringr, flexsurv, betareg, utils, stats
 RoxygenNote: 7.2.0
