@@ -1,9 +1,3 @@
-# library(gtools)
-# library(crayon)
-# library(stringr)
-
-##############################
-
 #' @importFrom stats pnorm
 #' @export
 BM_LL <- function(param, u, v, mu.data){

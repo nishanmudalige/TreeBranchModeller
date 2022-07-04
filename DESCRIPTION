@@ -2,7 +2,7 @@ Package: TreeBranchModeller
 Type: Package
 Title: A package to model the branching pattern of trees in nature
 Version: 0.1
-Author: Nishan Mudalige
+Author: Pierre Dutilleul, Nishan Mudalige1, Louis-Paul Rivest
 Maintainer: Nishan Mudalige <nishan.m@icloud.com>
 Description: This R package was created to model the branching pattern of trees in nature.
 License: GPL-3 | file LICENSE
