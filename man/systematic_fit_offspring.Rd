@@ -1,14 +1,13 @@
-\name{systematic_fit_length}
-\alias{systematic_fit_length}
-\title{A function to fit one additional variable into a base model for length from a vector of variables}
-\description{A function to fit one additional variable into a base model for length from a set vector of variables based on the AIC criteria.}
-\usage{
-systematic_fit_length(base, vars, data, trace = F)}
+\name{systematic_fit_offspring}
+\alias{systematic_fit_offspring}
+\title{A function to fit one additional variable into a base model for the number of offspring branches from a vector of variables}
+\description{A function to fit one additional variable into a base model for the number of offspring branches from a set vector of variables based on the AIC criteria.}
+\usage{systematic_fit_offspring(base, vars, data, trace = F)}
 \arguments{
   \item{base}{The base model formula.}
   \item{vars}{A vector of candidate variables.}
   \item{data}{Data used for model selection.}
-  \item{trace}{Whether to show the steps of the model selection process.}
+  \item{trace}{Whether to show the steps of the model selection process.}  
 }
 \author{Nishan Mudalige}
 \examples{
