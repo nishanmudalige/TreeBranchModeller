@@ -1,11 +1,11 @@
-\name{create_model}
-\alias{create_model}
-\title{A function to create a statistical model for length}
-\description{A function to create a statistical model for length.}
-\usage{create_model(data, include_names, u, v, trace = F)}
+\name{select_one}
+\alias{select_one}
+\title{A function to select the best new variable for the model for direction.}
+\description{A function that will select the single best variable to add to a base model based on the AIC criteria. The variable that will be added will be the variable that provides the lowest AIC.}
+\usage{select_one(data, include_names, u, v, trace = F)}
 \arguments{
-  \item{data}{The data to evaluate parameters.}
-  \item{include_names}{Column names of data that should be included in the model.}
+  \item{data}{Data used for model selection.}
+  \item{include_names}{The names of the variables that must be included in the model selection.}
   \item{u}{Directional cosine.}
   \item{v}{Directional cosine.}
   \item{trace}{Whether to show the steps of the model selection process.}

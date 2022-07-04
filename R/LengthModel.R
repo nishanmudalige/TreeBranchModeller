@@ -10,6 +10,7 @@ getAIC_length = function(x){
 }
 
 
+#' @importFrom stats as.formula
 #' @export
 fit_length = function(base, var, data, trace = F){
   

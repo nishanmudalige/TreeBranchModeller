@@ -4,6 +4,7 @@
 
 ##############################
 
+#' @importFrom stats pnorm
 #' @export
 BM_LL <- function(param, u, v, mu.data){
   
@@ -38,7 +39,7 @@ getAIC_direction <- function(x){
 }
 
 
-
+#' @importFrom stats nlminb
 #' @export
 create_model <- function(data, include_names, u, v, trace = F){
   
@@ -175,7 +176,7 @@ select_multiple <- function(data, must_include = NULL, u, v, trace = F){
 }
 
 
-
+#' @importFrom stats nlminb
 #' @export
 systematic_fit_direction <- function(data, u, v, trace = F){
   
