@@ -22,6 +22,13 @@ In order to install BOLD.R directly through R, please type the following into th
 
 ## Usage
 
+We recommend using a light coloured theme in R or RStudio (such as the default theme).
+
+```
+> library(TreeBranchModeller)
+> library(tidyverse)
+```
+
 ### Model for Direction.
 
 
