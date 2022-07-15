@@ -20,5 +20,12 @@ In order to install BOLD.R directly through R, please type the following into th
   > devtools::install_github("nishanmudalige/TreeBranchModeller", force = TRUE)
 ```
 
+## Usage
+
+### Model for Direction.
+
+
+
+## Help
 
 For questions, please email nishan [dot] mudalige [at] gmail [dot] com .
