@@ -31,8 +31,7 @@ We recommend using a light coloured theme in R or RStudio (such as the default t
 
 ## Example: Christmas Tree data
 
-### Read the data
-
+### Read the data into R
 
 ```
 > ## Read The data set
@@ -58,8 +57,9 @@ We recommend using a light coloured theme in R or RStudio (such as the default t
 ```
 
 ### Models for Direction
-
 ```
+> ## Run code above to read in the data into R and create the objects which contain relevant data for each level
+> 
 > ## Model for Level 2
 >
 > u3 = ct_data_level3 %>% select(C2.1, C2.2, C2.3)  # parent
@@ -93,6 +93,32 @@ We recommend using a light coloured theme in R or RStudio (such as the default t
 > ct_dir_l4
 ```
 
+### Models for Number of Offspring Branches
+```
+> ## Run code above to read in the data into R and create the objects which contain relevant data for each level
+>
+> ## Level 2 data
+> ct_n_l2_vars = c("x2", "C2.3", "L2") 
+> ct_n_l2 = systematic_fit_full_offspring("N2 ~ 1", 
++                               vars = ct_n_l2_vars, 
++                               data = ct_data_level2, 
++                               linear = T, 
++                               quad_int = T, 
++                               hierarchical = T, 
++                               trace = F)
+> ct_n_l2
+>
+> ## Level 3 data
+>
+> ct_offspring_l3_vars = c("x2", "C2.3", "L2", "N2",
++                          "x3", "C3.3", "L3")
+> ct_offspring_l3 = systematic_fit_full_offspring("N3 ~ 1",
++                                      vars = ct_offspring_l3_vars, 
++                                      data = ct_data_level3, 
++                                      linear = T, quad_int = T, 
++                                      hierarchical = T, trace = F)
+> ct_offspring_l3
+```
 
 ## Help
 
