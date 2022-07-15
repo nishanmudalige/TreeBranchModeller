@@ -57,7 +57,7 @@ We recommend using a light coloured theme in R or RStudio (such as the default t
 +                      id4, x4, C4.1, C4.2, C4.3, L4) %>% filter(id4 != 0) %>% distinct()
 ```
 
-### Model for Direction
+### Models for Direction
 
 ```
 > ## Model for Level 2
