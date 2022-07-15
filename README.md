@@ -29,7 +29,7 @@ We recommend using a light coloured theme in R or RStudio (such as the default t
 > library(tidyverse)
 ```
 
-## Example: Christmas Tree data
+## Example: Pixie Tree data (also reffered to as the Christmas Tree)
 
 ### Read the data into R
 
