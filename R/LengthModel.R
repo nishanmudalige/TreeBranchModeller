@@ -207,6 +207,8 @@ systematic_fit_component_length = function(base, vars, data, trace = F){
 }
 
 
+
+#' @export
 systematic_fit_full_length = function(base, vars, data, 
                                       linear = T, quad_int = T,
                                       hierarchical = T, 
