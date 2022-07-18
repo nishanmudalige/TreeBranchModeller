@@ -18,6 +18,7 @@ In order to install TreeBranchModeller directly through R, please type the follo
   > 
   > library(devtools)
   > devtools::install_github("nishanmudalige/TreeBranchModeller", force = TRUE)
+  > ## Please update all packages when prompted
 ```
 
 ## Usage
