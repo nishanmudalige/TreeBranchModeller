@@ -60,15 +60,6 @@ We recommend using a light coloured theme in R or RStudio (such as the default t
 ### Models for Direction
 ```
 > ## Run code above to read in the data into R and create the objects which contain relevant data for each level
-> 
-> ## Model for Level 2
->
-> u3 = ct_data_level3 %>% select(C2.1, C2.2, C2.3)  # parent
-> v3 = ct_data_level3 %>% select(C3.1, C3.2, C3.3)  # child
-> 
-> ct_dir_l3_vars = ct_data_level3 %>% select(x3, x2, C2.3, L2, N2)
->  
-> ct_dir_l3 = systematic_fit_direction(ct_dir_l3_vars, u3, v3, T)
 >
 >
 > ## Model for Level 3
