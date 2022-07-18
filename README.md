@@ -10,7 +10,7 @@ TreeBranchModeller relies on the following dependences:
   > sapply(required.packages, install.packages)
 ```
 
-In order to install BOLD.R directly through R, please type the following into the R console.
+In order to install TreeBranchModeller directly through R, please type the following into the R console.
 
 ```
   > ## If devtools are not installed
