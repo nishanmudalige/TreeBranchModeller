@@ -1,5 +1,5 @@
 # TreeBranchModeller
-R package for the paper "Learning how a tree branches out: A statistical modeling approach"
+R package for the paper "Learning how a tree branches out: A statistical modeling approach" by L.P. Rivest, N. Mudalige, P. Duttiliel.
 
 ## Installation
 
